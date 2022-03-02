@@ -1,0 +1,150 @@
+.container {
+    flex-wrap: wrap;
+}
+
+body {
+    overflow-x: hidden;
+    background-image: url("../img/tlo.jpg");
+    min-height: 100vh;
+}
+
+main {
+    width: calc(35% - 30px);
+    padding-right: 30px;
+}
+
+aside {
+    width: 65%;
+    padding-right: 0;
+}
+
+#typical_form {
+    padding: 15px 20px;
+    margin-bottom: 40px;
+}
+
+#typical_form .filters-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+#typical_form .filters-row .bool-selects {
+    width: calc(100% - 155px);
+}
+
+#typical_form label {
+    width: 145px;
+    display: block;
+    text-align: right;
+    padding-right: 10px;
+}
+
+#typical_form select {
+    width: calc(100% - 155px);
+}
+
+#typical_form .inputs {
+    width: calc(100% - 155px);
+    display: flex;
+    justify-content: space-between;
+}
+
+#typical_form .inputs input{
+    width: 100%;
+}
+
+#typical_form .filters-buttons {
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0 0;
+}
+
+#typical_form .filters-buttons .button:first-child {
+    margin-right: 20px;
+}
+
+.extra-info {
+    margin-top: 10px;
+}
+.extra-info a {
+    color: var(--red);
+}
+
+.plus {
+    margin-right: 3px;
+    text-align: justify;
+    display: flex;
+    align-items: center;
+}
+
+.inputs #prefix {
+    margin-right: 5px;
+    width: 30px !important;
+}
+
+#register-btns {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#register-btns a {
+    width: fit-content;
+    margin: 0 auto;
+    padding: 9px 20px 7px;
+}
+
+.adds a {
+    width: calc(50% - 15px);
+}
+
+.om-popup #GoogleUpdateData h2 {
+    margin-bottom: 20px;
+}
+
+.om-popup #GoogleUpdateData .filters-row, .om-popup #GoogleUpdateData .checkbox {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.om-popup #GoogleUpdateData .filters-row label, .om-popup #GoogleUpdateData .checkbox label {
+    display: block;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.om-popup #GoogleUpdateData .filters-row .inputs {
+    display: flex;
+    width: 100%;
+}
+
+.om-popup #GoogleUpdateData .filters-row .inputs input, .om-popup #GoogleUpdateData .filters-row select {
+    width: 100%;
+}
+
+.om-popup #GoogleUpdateData .checkbox span a {
+    margin-left: 5px;
+}
+
+.om-popup #GoogleUpdateData .filters-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.om-popup #GoogleUpdateData .filters-buttons button {
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 9px 20px 7px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-right: 20px;
+}
+
+.g-signin2 {
+    margin-top: 15px;
+}

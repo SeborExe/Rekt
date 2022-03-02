@@ -1,0 +1,14 @@
+{
+  "require": {
+    "leocavalcante/siler": "^1.5"
+  },
+
+  "autoload": {
+    "psr-0": { "Damian": "app/" },
+    "files": [
+      "app/controller/Home.php",
+      "app/controller/Select.php",
+      "app/controller/User.php"
+    ]
+  }
+}

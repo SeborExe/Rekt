@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swamp');
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+#header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10000;
+}
+
+#header .logo {
+    color: #094b65;
+    font-weight: 700;
+    font-size: 3em;
+    text-decoration: none;
+}
+
+#header ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    font-size: 1.2em;
+}
+
+#header ul li {
+    list-style: none;
+    margin-left: 20px;
+
+}
+
+#header ul li a {
+    text-decoration: none;
+    padding: 6px 15px;
+    color: #094b65;
+    border-radius: 20px;
+    transition-duration: 0.5s;
+}
+
+#header ul li a:hover,
+#header ul li a.active{
+    background: #094b65;
+    color: #fff;
+}
+
+.autor {
+    background:#063547 ;
+    text-align: center;
+    color: gray;
+    padding-bottom: 5px;
+}
+
+.media {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background:#063547 ;
+}
+
+.facebook {
+    padding: 5px;
+    transition-duration: 0.5s;
+    color: #fff;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.facebook:hover {
+    color: #4668b3;
+}
+
+.youtube-play {
+    padding: 5px;
+    transition-duration: 0.5s;
+    color: #fff;
+    font-size: 30px;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.youtube-play:hover {
+    color: #c4302b
+}
+
+.github {
+    padding: 5px;
+    transition-duration: 0.5s;
+    size: 30px;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.github:hover {
+    background: #6e5494;
+}
+
+.instagram {
+    padding: 5px;
+    transition-duration: 0.5s;
+    color: #fff;
+    font-size: 30px;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.instagram:hover {
+    color: transparent;
+    background: -webkit-radial-gradient(30% 107%, circle, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background: -o-radial-gradient(30% 107%, circle, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background-clip: text;
+    -webkit-background-clip: text;
+}
